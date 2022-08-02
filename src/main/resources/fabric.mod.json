@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "modid",
+  "version": "${version}",
+
+  "name": "Example Mod",
+  "description": "",
+  "authors": [
+    "KxmischesDomi"
+  ],
+  "contact": {
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/",
+    "sources": "https://github.com/KxmischesDomi/FabricTemplate",
+    "issues": "https://github.com/KxmischesDomi/FabricTemplate/issues"
+  },
+
+  "license": "Custom License",
+  "icon": "assets/modid/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "de.kxmischesdomi.modid.ExampleMod"
+    ]
+  },
+  "mixins": [
+    "modid.mixins.json"
+  ],
+
+  "depends": {
+    "minecraft": "1.19.x",
+    "fabricloader": "*",
+    "fabric": "*"
+  }
+}
